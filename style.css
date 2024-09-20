@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 :root{
-    --cor-de-fundo: #E5D9F2;
-    --cor-primaria: #181C14;
+    --cor-de-fundo: #161D6F;
+    --cor-primaria: #EE66A6;
     --cor-secundaria: #C4DAD2;
     --fonte:"Dancing Script", cursive;
 }
@@ -16,4 +16,35 @@ body{
     color: var(--cor-primaria);
     height: 100vh;
     font-family: var(--fonte);
+}
+
+header{
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+
+h1{
+    color: var(--cor-de-fundo);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: transform 0.5s;
 }
