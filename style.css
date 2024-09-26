@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 :root{
-    --cor-de-fundo: #161D6F;
-    --cor-primaria: #EE66A6;
+    --cor-1:#021526;
+    --cor-de-fundo: #55679C;
+    --cor-primaria: #b7dff0;
     --cor-secundaria: #C4DAD2;
+
     --fonte:"Dancing Script", cursive;
 }
 
@@ -24,7 +26,7 @@ header{
 }
 
 h1{
-    color: var(--cor-de-fundo);
+    color: var(--cor-1);
     font-size: 2rem;
     font-weight: 700;
 }
