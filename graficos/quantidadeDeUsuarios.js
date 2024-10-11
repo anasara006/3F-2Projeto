@@ -6,11 +6,18 @@ async function quantidaDeUsuarios(){
    const quantidaDeUsuarios = Object.values(dados);
 
 
-   const infos =[
+   const infos = [
     {
         x: nomeDasRedes,
         y: quantidaDeUsuarios,
-        type: bar
+        type: 'bar'
     }
    ]
+   const grafico = document.createElement('div');
+   grafico.className = 'grafico';
+   document.getElementById('graficos- contairner').appendChild(grafico);
+   Plotly.newPlot(grafico,infos);
+
 }
+
+quantidaDeUsuarios ();

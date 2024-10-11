@@ -1,6 +1,5 @@
 const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json';
 
-console.log(url);
 
 async function visualizaDadosGlobais(){
     const res = await fetch(url);
@@ -14,7 +13,7 @@ async function visualizaDadosGlobais(){
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-texto')
     const container = document.getElementById('graficos-container')
-    paragrafo.innerHTML = `No mundo tem <span>${totalPessoasMundo} bilhões</span>stão conectados em alguma rede social dos quais<span> ${totalPessoasConectadas} bilhões </span>estão conectados em alguma rede social por um tempo médio de <span>${tempoMedio}</span>.`;
+    paragrafo.innerHTML = `No mundo tem <span>${totalPessoasMundo} bilhões</span>stão conectados em alguma rede social dos quais<span> ${totalPessoasConectadas} bilhões </span>estão conectados em alguma rede social por um tempo médio de <span>${tempoMedio}</span>.`
 
     container.appendChild(paragrafo);
 
