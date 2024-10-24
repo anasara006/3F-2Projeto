@@ -13,7 +13,7 @@ async function quantidaDeUsuarios(){
         y: quantidaDeUsuarios,
         type: 'bar',
         marker:{
-            color: getCSS(--cor-primaria)
+            color: getCSS('--cor-primaria')
         }
     }
    ]
