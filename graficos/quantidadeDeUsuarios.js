@@ -32,7 +32,7 @@ async function quantidaDeUsuarios() {
     }
     const grafico = document.createElement('div');
     grafico.className = 'grafico';
-    document.getElementById('graficos- contairner').appendChild(grafico);
+    document.getElementById('graficos-contairner').appendChild(grafico);
     Plotly.newPlot(grafico, infos, layout);
 
 }
